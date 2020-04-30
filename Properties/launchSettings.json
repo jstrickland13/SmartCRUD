@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SmartCRUD": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
