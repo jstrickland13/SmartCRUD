@@ -1,9 +1,8 @@
-﻿using System.Linq;
-using System.Reflection;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Reflection;
 
-namespace SmartCRUD
+namespace DownEast.ActiveRecord
 {
     public static class PropertyInfoExtensions
     {

@@ -1,0 +1,18 @@
+using FluentMigrator;
+
+namespace {{namespace}} 
+{
+    [Migration(1)]
+    public class CreateAccount : Migration
+    {
+        public override void Up()
+        {
+{{body}}
+        }
+
+        public override void Down()
+        {
+{{downbody}}
+        }
+    }
+}
