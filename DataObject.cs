@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
 
-namespace DownEast.ActiveRecord
+namespace DownEastDev.Data
 {
     public class ActiveRecordMediator<T> where T : class
     {

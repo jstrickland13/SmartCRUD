@@ -126,7 +126,7 @@ namespace DownEastDev.Data
         /// </summary>
         /// <returns></returns>
         // /TODO: Change to an Oracle query
-        protected List<string?>? GetTableNames()
+        protected List<string?> GetTableNames()
         {
             throw new NotImplementedException();
 

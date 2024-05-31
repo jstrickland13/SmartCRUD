@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using Microsoft.Data.SqlClient;
 
-namespace DownEast.Data
+namespace DownEastDev.Data
 {
     public class SqlModelGenerator
     {
@@ -20,7 +20,6 @@ namespace DownEast.Data
             strings.Add("using System;");
             strings.Add("using System.ComponentModel.DataAnnotations;");
             strings.Add("using System.ComponentModel.DataAnnotations.Schema;");
-            //strings.Add("using Dapper.Contrib.Extensions;");
             strings.Add("");
             strings.Add($"namespace {_namespace}");
             strings.Add("{");

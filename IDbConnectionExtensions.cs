@@ -1,8 +1,8 @@
-﻿using Dapper;
-using System.Data;
+﻿//using Dapper;
+//using System.Data;
 
-namespace JohnStrickland.ActiveRecord
-{
+//namespace JohnStrickland.ActiveRecord
+//{
     //public static class IDbConnectionExtensions
     //{
     //    public static IEnumerable<T> GetList<T>(this IDbConnection connection, object id, IDbTransaction transaction = null, bool buffered = true, int? commandTimeout = null)
@@ -42,4 +42,4 @@ namespace JohnStrickland.ActiveRecord
     //    }
 
     //}
-}
+//}
